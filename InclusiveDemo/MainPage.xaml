@@ -7,8 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
-
+    <Grid AutomationProperties.LocalizedControlType="Pulsante">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button x:Name="InsertButton"  HorizontalAlignment="Center">Aggiungi</Button>
+        <!--<Button x:Name="DeleteButton" HorizontalAlignment="Center" Grid.Row="1">
+            <SymbolIcon Symbol="Delete"/>
+        </Button>-->
+        <Button x:Name="DeleteButton" AutomationProperties.Name="Cancella" HorizontalAlignment="Center" Grid.Row="1" 
+                AutomationProperties.FullDescription="Premere il pulsante per eliminare la fattura 123 del 18 maggio 2018" AutomationProperties.LocalizedControlType="Pulsante">
+            <SymbolIcon Symbol="Delete"/>
+        </Button>
     </Grid>
 </Page>
