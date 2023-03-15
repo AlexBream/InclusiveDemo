@@ -17,7 +17,7 @@
             <SymbolIcon Symbol="Delete"/>
         </Button>-->
         <Button x:Name="DeleteButton" AutomationProperties.Name="Cancella" HorizontalAlignment="Center" Grid.Row="1" 
-                AutomationProperties.FullDescription="Premere il pulsante per eliminare la fattura 123 del 18 maggio 2018" AutomationProperties.LocalizedControlType="Pulsante">
+                AutomationProperties.FullDescription="Premere il pulsante per eliminare la fattura 99 del 16 marzo 2023" AutomationProperties.LocalizedControlType="Pulsante">
             <SymbolIcon Symbol="Delete"/>
         </Button>
     </Grid>
